@@ -1,0 +1,32 @@
+{
+  "name": "mobitel-config",
+  "version": "1.0.0",
+  "description": "NodeJs module for loading application config by JSON-schema and automatic generate command line properties",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint --quiet --ignore-pattern '/test/' .",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mobitel-ltd/mobitel-config.git"
+  },
+  "keywords": [
+    "config",
+    "json",
+    "schema",
+    "command",
+    "line",
+    "property",
+    "automatic",
+    "search",
+    "file",
+    "mobitel"
+  ],
+  "author": "Dmitry Furman aka PragmaWolf, Mobitel Ltd <pragmawolf@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mobitel-ltd/mobitel-config/issues"
+  },
+  "homepage": "https://github.com/mobitel-ltd/mobitel-config#readme"
+}
